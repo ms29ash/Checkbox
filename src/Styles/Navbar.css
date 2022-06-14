@@ -1,0 +1,49 @@
+.nav {
+    background-color: white;
+    width: 100vw;
+    height: 10vh;
+    top: 0;
+    right: 0;
+    padding: 0 3vw;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__img {
+    width: 200px;
+    height: 40px;
+    object-fit: contain;
+}
+.nav__img:hover {
+    cursor: pointer;
+}
+
+.price {
+    text-align: right;
+
+    align-items: center;
+    display: flex;
+}
+.subtotal {
+    margin-block: 0;
+    margin: 0 15px;
+}
+
+.stat {
+    display: flex;
+    /* flex-direction: column; */
+}
+.proceed__button {
+    width: 200px;
+    background-color: red !important;
+    border-radius: 50px !important;
+}
+
+.reset__button {
+    background-color: rgb(33, 201, 33) !important;
+}
+
+.proceed__button:hover {
+    cursor: pointer;
+}

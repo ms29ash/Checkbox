@@ -1,0 +1,21 @@
+table {
+    width: 80vw;
+}
+
+.bill {
+    overflow-y: scroll;
+    width: 80vw;
+    margin: 0 auto;
+}
+.bill::-webkit-scrollbar {
+    width: 0;
+}
+.bill__head {
+    text-align: center;
+    /* width: 80vw; */
+}
+table,
+th,
+td {
+    /* border: 1px solid black; */
+}
