@@ -11,7 +11,6 @@ function Navbar() {
     const navigate = useNavigate()
     const dispatch = useDispatch()
     const location = useLocation()
-    console.log(location.pathname)
 
     const cart = useSelector((state) => state?.item?.cart)
     const amount = (basket) =>

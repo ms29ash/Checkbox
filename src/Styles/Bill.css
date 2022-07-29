@@ -12,10 +12,17 @@ table {
 }
 .bill__head {
     text-align: center;
-    /* width: 80vw; */
 }
-table,
-th,
-td {
-    /* border: 1px solid black; */
+
+@media print {
+    .no-print,
+    .no-print * {
+        display: none !important;
+    }
+}
+
+@media print {
+    @page {
+        size: landscape;
+    }
 }
